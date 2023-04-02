@@ -1,0 +1,105 @@
+{
+  "skincareProducts": [
+    {
+      "id": 1,
+      "brand": "amorepacific",
+      "name": "age spot brighteni",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0097/9340/4964/products/AP_VSEE_Ppage_Image_Updates_04.jpg?v=1661374356&width=260",
+      "ingredient": [
+        "water",
+        "butylene glycol",
+        "alcohol"
+      ],
+      "description": "dftyujhbghujbgujvgzfytyuijnbvgxfytuijnbvcfgtyuhjbvcgfyuhjbnvcfgyuhjbcfgtyuhjbnvgfjn bhdn dbvjnjhuijbhvdsn bvuhb hfhduhbyhurgbhunebhfujnewnvbhufej uj3hru8bh8unbhurijb hgujef nfjehfvj fujrgbji4u8j4urjghujrg runjgb njfdk",
+      "Raviews": 0,
+      "like": false
+    },
+    {
+      "id": 2,
+      "brand": "OLAY",
+      "name": "Retinol 24 Max",
+      "imageUrl": "https://m.media-amazon.com/images/I/718mXByu96L._SY450_.jpg",
+      "ingredient": [
+        "Retinol"
+      ],
+      "description": "This facial moisturizer penetrates the surface of your skin at night to transform your skin with Retinol 24's maximum concentration of hydrators",
+      "like": false
+    },
+    {
+      "id": 3,
+      "brand": "Paula's Choice",
+      "name": "Skin Perfecting 2% BHA Liquid ",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0430/6226/3960/products/CCP000325_1024x.jpg?v=1608540422",
+      "ingredient": [
+        "salicylic_acid, 2% Salicylic Acid (BHA) & Green Tea Extract"
+      ],
+      "description": "Paula's Choice facial exfoliants are gentler on delicate skin of the face & neck than an abrasive face scrub, which can cause micro-tears. A BHA leave-on exfoliator delivers hydration & can exfoliate directly inside the pore & improve how the pore works."
+    },
+    {
+      "id": 4,
+      "brand": "BAIMEI",
+      "name": "Jade Roller",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0259/2355/1328/products/coffretvertpic.png?v=1617034730",
+      "ingredient": [
+        ""
+      ],
+      "description": "Face roller-muscle tension relief, reduce facial puffiness and help your skin look fresh; firm your skin and make it look dewy and lifted",
+      "like": false
+    },
+    {
+      "id": 5,
+      "brand": "e.l.f",
+      "name": "Holy hydration",
+      "imageUrl": "https://www.glowskincosmetics.com/wp-content/uploads/2022/09/IMG-20220905-WA0012-600x600.jpg",
+      "ingredient": [
+        "Niacinamide, Hyaluronic Acid"
+      ],
+      "description": "This skincare kit has all of your favorite Holy Hydration necessities- a Holy Hydration! Daily Cleanser, Holy Hydration! Makeup Melting Cleansing Balm, Hydrating Booster Drops, Holy Hydration! Face Cream & Eye Cream.",
+      "like": true
+    },
+    {
+      "id": 6,
+      "brand": "CeraVe",
+      "name": "Moisturizing Cream ",
+      "imageUrl": "https://www.femmenordic.com/assets/_img/CeraVe_Moisturizing_Cream_16oz_Jar_FRONT-700x875-v3.jpg",
+      "ingredient": [
+        " Aqua/Water, Glycerin, Cetearyl Alcohol, Caprylic/Capric Triglyceride, Cetyl Alcohol, Ceteareth-20, Petrolatum, Dimethicone, Phenoxyethanol, Behentrimonium Methosulfate, Potassium Phosphate, Ethylhexyglycerin, Sodium Lauroyl Lactylate, Disodium Edta, Dipostassium Phosphate, Ceramide NP, Ceramide AP, Phytoshingosine, Cholesterol, Xanthan Gum, Carbomer, Sodium Hyaluronate, Tocopherol, Ceramide EOP."
+      ],
+      "description": "Hylaronic acid moisturizer With hyaluronic acid, ceramides and MVE technology for 24 hour hydration. Rich, velvety texture that leaves skin feeling smooth, it is absorbed quickly for softened skin without greasy, sticky, feel.",
+      "like": false
+    },
+    {
+      "id": 7,
+      "brand": "REMEDIAL",
+      "name": "Collagen ",
+      "imageUrl": "https://m.media-amazon.com/images/I/81bdvgbx7kL._SY450_.jpg",
+      "ingredient": [
+        "hyaluronic_acid, vitamin_e, Retinol, Collagen, Hyaluronic Acid"
+      ],
+      "description": "Fight aging: this anti aging moisturizer face cream has been engineered to help combat the effects of age; our advanced cream contains collagen, retinol and hyaluronic acid to help erase fine lines and wrinkles",
+      "like": false
+    },
+    {
+      "id": 9,
+      "brand": "Neutrogena",
+      "name": "Hydro Boost",
+      "imageUrl": "https://www.neutrogenamd.com/sites/neutrogenahcp_us/files/hb-product-icon-images_moisturize.png",
+      "ingredient": [
+        "hyaluronic_acid"
+      ],
+      "description": "The unique facial moisturizing gel-cream absorbs quickly, like a gel, but has the long-lasting, intense moisturizing power of a cream, for even extra dry skin. It boosts skin's hydration and locks it in all day",
+      "like": false
+    },
+    {
+      "id": 10,
+      "brand": "Aveeno",
+      "name": "Daily Moisturizing Body Lotion",
+      "imageUrl": "https://www.pngkey.com/png/full/35-357327_picture-of-aveeno-daily-moisturising-lotion-with-lavender.png",
+      "ingredient": [
+        "dimethicone"
+      ],
+      "description": "Aveeno body lotion is specially designed for extra-dry skin to lock in intense moisture and help improve skin's natural moisture barrier; fragrance-free and suitable for all skin types",
+      "like": false
+    }
+  ]
+}
