@@ -337,7 +337,34 @@
     "price": 39.99,
     "description": "🌟 BRING SPA RESULTS TO YOUR HOME! Now you can enjoy the beautifying benefits of our Spa-Grade Facial Steamer Treatments in the comfort of your home— for just a fraction of the salon price. Our proprietary Nano Ionic Steaming Technology gives you glowing, hydrated skin in minutes!",
     "like": false
-  }
+  } 
+],
+  "reviews": [
+    {
+      "name": "John",
+      "message": "olay brand is lit",
+      "id": 1
+    },
+    {
+      "name": "siham",
+      "message": "aveeno lotion my life",
+      "id": 2
+    },
+    {
+      "name": "Milhan",
+      "message": "e.l.f is to die for",
+      "id": 3
+    },
+    {
+      "name": "Mohamed Amin",
+      "message": "I like your products especially Penoxyl is everything",
+      "id": 4
+    },
+    {
+      "name": "dfgh",
+      "message": "fight",
+      "id": 5
+    }
 ]
   
 }
