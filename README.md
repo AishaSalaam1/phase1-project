@@ -7,7 +7,7 @@ Hello there! Im working on website thats called SkinCare product. which is web w
 - Clone the repo {git clone https://github.com/AishaSalaam1/phase1-project.git}
 - and run the `index.js` file with live server vs code extension
 ## Live link
-- link # phase1-project
+- link # https://aishasalaam1.github.io/phase1-project/
 ## Author
 #### By **Aisha Hussein**
 ###
