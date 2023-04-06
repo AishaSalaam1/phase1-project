@@ -269,8 +269,8 @@ document.addEventListener('click', buyCallback);
 
 
 const formUpdate = document.createElement('form');
-form.className = `${skin.id} form-update`;
-form.innerHTML = `
+formUpdate.className = `${skin.id} form-update`;
+formUpdate.innerHTML = `
   <label for="brand">Brand:</label>
   <input type="text" name="brand" value="${skin.brand}">
   <label for="name">Name:</label>

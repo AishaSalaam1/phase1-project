@@ -33,9 +33,9 @@
       "ingredient": [
         "salicylic_acid, 2% Salicylic Acid (BHA) & Green Tea Extract"
       ],
-      "price": 12.3,
+      "price": "$12.3",
       "description": "Paula's Choice facial exfoliants are gentler on delicate skin of the face & neck than an abrasive face scrub, which can cause micro-tears. A BHA leave-on exfoliator delivers hydration & can exfoliate directly inside the pore & improve how the pore works.",
-      "like": false
+      "like": true
     },
     {
       "id": 4,
@@ -73,7 +73,6 @@
       "description": "Hylaronic acid moisturizer With hyaluronic acid, ceramides and MVE technology for 24 hour hydration. Rich, velvety texture that leaves skin feeling smooth, it is absorbed quickly for softened skin without greasy, sticky, feel.",
       "like": false
     },
-    
     {
       "id": 7,
       "brand": "REMEDIAL",
@@ -84,7 +83,7 @@
       ],
       "price": "$20.5",
       "description": "Fight aging: this anti aging moisturizer face cream has been engineered to help combat the effects of age; our advanced cream contains collagen, retinol and hyaluronic acid to help erase fine lines and wrinkles",
-      "like": false
+      "like": true
     },
     {
       "id": 9,
@@ -314,31 +313,19 @@
       "description": "Soft & Skin friendly Brush - The face mask brush head is made of food grade silicone, soft and skin-friendly, so you don't need worry about a bunch of mask getting stuck in your bristles or the bristles fall out.",
       "like": false
     },
-  {
-    "id": 28,
-    "brand": "Tamoskiny",
-    "name": "strawberry Clay Mask for Face",
-    "imageUrl": "https://m.media-amazon.com/images/I/71bhnilWOgL._SY450_.jpg",
-    "ingredient": [
-      "Strawberry"
-    ],
-    "price": 9.59,
-    "description": "FACIAL MASK SKIN CARE - This Pink Facial Clay Mask includes strawberry extracts, revitalize & moisturize your skin with our strawberry face mask, gently cleans the toxins, also rejuvenates your complexion for a smoother, brightening and cleaner skin.",
-    "like": false
-  },
-  {
-    "id": 30,
-    "brand": "Microderm GLO",
-    "name": "facial Steamer SPA+ ",
-    "imageUrl": "https://m.media-amazon.com/images/I/91oLsKOv4fL._SY450_.jpg",
-    "ingredient": [
-      ""
-    ],
-    "price": 39.99,
-    "description": "🌟 BRING SPA RESULTS TO YOUR HOME! Now you can enjoy the beautifying benefits of our Spa-Grade Facial Steamer Treatments in the comfort of your home— for just a fraction of the salon price. Our proprietary Nano Ionic Steaming Technology gives you glowing, hydrated skin in minutes!",
-    "like": false
-  } 
-],
+    {
+      "id": 28,
+      "brand": "Tamoskiny",
+      "name": "strawberry Clay Mask for Face",
+      "imageUrl": "https://m.media-amazon.com/images/I/71bhnilWOgL._SY450_.jpg",
+      "ingredient": [
+        "Strawberry"
+      ],
+      "price": "$9.59",
+      "description": "FACIAL MASK SKIN CARE - This Pink Facial Clay Mask includes strawberry extracts, revitalize & moisturize your skin with our strawberry face mask, gently cleans the toxins, also rejuvenates your complexion for a smoother, brightening and cleaner skin.",
+      "like": false
+    }
+  ],
   "reviews": [
     {
       "name": "John",
@@ -361,10 +348,19 @@
       "id": 4
     },
     {
-      "name": "dfgh",
-      "message": "fight",
-      "id": 5
+      "name": "Edwinna",
+      "message": "I like ur products",
+      "id": 6
+    },
+    {
+      "name": "Mohamed Ali",
+      "message": "I LIKE UR WORK",
+      "id": 7
+    },
+    {
+      "name": "Farah",
+      "message": "I tried the cetaphil its pretty cool",
+      "id": 8
     }
-]
-  
+  ]
 }
