@@ -118,3 +118,39 @@ h2 {
   padding-left: 15px;
   padding-right: 15px;
  }
+ p {
+  font-style: italic;
+ }
+ .main {
+  display: flex;
+  /* flex-direction: column; */
+  gap: 40px;
+  margin: 50px;
+  flex-wrap: wrap;
+ }
+ 
+ .card:hover {
+  box-shadow: 10px 6px 10px 7px rgba(179, 179, 179, 0.307);
+  transform: translateY(-1.6rem);
+  }
+
+form {
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+/* Style the titleDiv */
+.innerDiv  {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100%;
+}
+ 
+/* Style the price span */
+
+ 
+
+/* form {
+  text-align: center;
+  } */
