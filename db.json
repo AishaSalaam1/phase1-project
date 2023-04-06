@@ -205,6 +205,66 @@
       "price": "$289.99",
       "description": "This LED light therapy facial mask proved for Class II medical device with FDA-approved, which adapts light therapy technology for individual 3 lights (blue/red/orange). Red light improves the breakouts and targets the coming spots. Blue light targets acne while red light fixes acne inflammation, the orange light improves dull-looking skin.",
       "like": false
+    },
+    {
+      "id": 19,
+      "brand": "JLO BEAUTY",
+      "name": "Big Screen Broad Spectrum",
+      "imageUrl": "https://m.media-amazon.com/images/S/mms-media-storage-prod/final/BrandPosts/brandPosts/935c7ecd-90d6-49ef-b89b-8cbef274fc95/ae4faa08-d810-400d-90c9-ec09391545ea/media._SL850_FMjpg_.jpeg",
+      "ingredient": [
+        "Homosalate"
+      ],
+      "price": "$69",
+      "description": "JLO BEAUTY That Big Screen Broad Spectrum SPF 30 Moisturizer | Hydrates, Protects, Luminizes, Soothes For Smooth, Dewy & Glowing Skin | 1.7 Fl Oz",
+      "like": false
+    },
+    {
+      "id": 20,
+      "brand": "FREEMAN",
+      "name": "Face Mask Exotic",
+      "imageUrl": "https://m.media-amazon.com/images/I/81P6f337XIL._SY450_.jpg",
+      "ingredient": [
+        "Clay"
+      ],
+      "price": "$9.99",
+      "description": "4 Piece Set Includes: (1) Pore Clearing French Pink Clay Peel-Off Mask, (1) Deep Cleansing Hawaiian Black Salt Peel-Off Mask , (1) Hydrating Australian Aloe Jelly Mask, and (1) Bonus Silicone Application Brush",
+      "like": false
+    },
+    {
+      "id": 21,
+      "brand": "Vibriance",
+      "name": "Super C Serum ",
+      "imageUrl": "https://m.media-amazon.com/images/I/61EV8+BEluL._SY450_.jpg",
+      "ingredient": [
+        ""
+      ],
+      "price": "$45.99",
+      "description": "A TRUE MULTI-TASKER: One drop of Vibriance Super C Vitamin C Facial Serum nourishes your skin with a powerful dose of vitamins and nutrients. This multi-tasking serum combines several products into one, making you look and feel more vibrant than ever.",
+      "like": false
+    },
+    {
+      "id": 22,
+      "brand": "PanOxyl",
+      "name": "Acne Foaming Wash ",
+      "imageUrl": "https://images.yaoota.com/iFDuKrYVT-8kedPSYcUQsFjafew=/trim/yaootaweb-production-ke/media/crawledproductimages/f46477d1e16fc8bc19a3e9897fa422781f144465.jpg",
+      "ingredient": [
+        ""
+      ],
+      "price": "$9.77",
+      "description": "Maximum strength, antimicrobial foaming wash kills acne-causing bacteria on contact and lifts dirt from pores for a fresher, clearer you...",
+      "like": false
+    },
+    {
+      "id": 23,
+      "brand": "Cetaphil",
+      "name": "Pro Oil Removing Foam Wash",
+      "imageUrl": "https://m.media-amazon.com/images/I/71jM8+1dJxL._SY450_.jpg",
+      "ingredient": [
+        "Foam"
+      ],
+      "price": "$28",
+      "description": "DERMACONTROL OIL REMOVING FOAM WASH: A clinically proven, pH-balanced formula is the first step of a daily skincare regimen designed to manage oily, combination skin",
+      "like": false
     }
 
   ]
