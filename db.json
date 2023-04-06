@@ -325,6 +325,19 @@
     "price": 9.59,
     "description": "FACIAL MASK SKIN CARE - This Pink Facial Clay Mask includes strawberry extracts, revitalize & moisturize your skin with our strawberry face mask, gently cleans the toxins, also rejuvenates your complexion for a smoother, brightening and cleaner skin.",
     "like": false
+  },
+  {
+    "id": 30,
+    "brand": "Microderm GLO",
+    "name": "facial Steamer SPA+ ",
+    "imageUrl": "https://m.media-amazon.com/images/I/91oLsKOv4fL._SY450_.jpg",
+    "ingredient": [
+      ""
+    ],
+    "price": 39.99,
+    "description": "🌟 BRING SPA RESULTS TO YOUR HOME! Now you can enjoy the beautifying benefits of our Spa-Grade Facial Steamer Treatments in the comfort of your home— for just a fraction of the salon price. Our proprietary Nano Ionic Steaming Technology gives you glowing, hydrated skin in minutes!",
+    "like": false
   }
-  ]
+]
+  
 }
