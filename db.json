@@ -169,6 +169,42 @@
       "price": "$11.42",
       "description": "Soothing and Moisturizing: Unlike other mud masks, our detox mask contains six plant extracts formula to penetrate deep layers of skin, balance excess oil on the skin, replenish skin moisture, allow the skin to be best nourished, and improve skin condition.",
       "like": false
+    },
+    {
+      "id": 16,
+      "brand": "Pjordo",
+      "name": "Rose Clay Facial Mask",
+      "imageUrl": "https://m.media-amazon.com/images/I/61rFg5Et27L._SY450_.jpg",
+      "ingredient": [
+        "Clay"
+      ],
+      "price": "$8.20",
+      "description": "Nourishing & Moisturizing: Rose aloe mud mask has a moisturizing, nourishing and soothing effect on the skin, softening skin and improving skin texture. Rich in multivitamins, it is a natural antioxidant and anti-aging that helps restore skin proteins, reduce fine lines and leave skin glowing.",
+      "like": true
+    },
+    {
+      "id": 17,
+      "brand": "BACHERI",
+      "name": "Rose Clay Mask Stick",
+      "imageUrl": "https://m.media-amazon.com/images/I/61cAq7Tj3xL._SY450_.jpg",
+      "ingredient": [
+        "Clay"
+      ],
+      "price": "$5.71",
+      "description": "Glowing & Smooth Skin -- The pink clay mask contains rose extract and natural plant essence. These active ingredients work to balance your skin's oil secretion, help minimize redness and soothe irritation.",
+      "like": true
+    },
+    {
+      "id": 18,
+      "brand": "OSITO",
+      "name": "LED Light Therapy Facial Mask",
+      "imageUrl": "https://m.media-amazon.com/images/I/617LPhEb2XL._SY450_.jpg",
+      "ingredient": [
+        "Sheet"
+      ],
+      "price": "$289.99",
+      "description": "This LED light therapy facial mask proved for Class II medical device with FDA-approved, which adapts light therapy technology for individual 3 lights (blue/red/orange). Red light improves the breakouts and targets the coming spots. Blue light targets acne while red light fixes acne inflammation, the orange light improves dull-looking skin.",
+      "like": false
     }
 
   ]
