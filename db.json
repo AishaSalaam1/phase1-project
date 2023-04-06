@@ -1,0 +1,41 @@
+{
+  "skincareProducts": [
+    {
+      "id": 1,
+      "brand": "DERMAXGEN",
+      "name": "Turmeric Vitamin C ",
+      "imageUrl": "https://m.media-amazon.com/images/I/81dmW8vDSzL._SY450_.jpg",
+      "ingredient": [
+        "vitamin_c"
+      ],
+      "price": "$19.99",
+      "description": "PERFECT REPAIR, MOISTURIZING TREATMENT: Turmeric + Vitamin C serum is a natural moisturizing & repair formula that helps your skin from inside, recharges your skin. The Serum has aloe vera extract, sodium hyaluronate, Centella Asiatica extract, & sophora Angustifolia extract With nourishing vitamins, turmeric, & other rejuvenating organic natural ingredients, this serum is the perfect anti-aging, moisturizing treatment for your skin.",
+      "Raviews": 0,
+      "like": true
+    },
+    {
+      "id": 2,
+      "brand": "OLAY",
+      "name": "Retinol 24 Max",
+      "imageUrl": "https://m.media-amazon.com/images/I/718mXByu96L._SY450_.jpg",
+      "ingredient": [
+        "Retinol"
+      ],
+      "price": "$20.33",
+      "description": "This facial moisturizer penetrates the surface of your skin at night to transform your skin with Retinol 24's maximum concentration of hydrators",
+      "like": true
+    },
+    {
+      "id": 3,
+      "brand": "Paula's Choice",
+      "name": "Skin Perfecting 2% BHA Liquid ",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0430/6226/3960/products/CCP000325_1024x.jpg?v=1608540422",
+      "ingredient": [
+        "salicylic_acid, 2% Salicylic Acid (BHA) & Green Tea Extract"
+      ],
+      "price": 12.3,
+      "description": "Paula's Choice facial exfoliants are gentler on delicate skin of the face & neck than an abrasive face scrub, which can cause micro-tears. A BHA leave-on exfoliator delivers hydration & can exfoliate directly inside the pore & improve how the pore works.",
+      "like": false
+    }
+  ]
+}
