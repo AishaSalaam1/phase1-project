@@ -1,3 +1,10 @@
+const wrapper = document.querySelector(".wrapper");
+const form = document.querySelector(".submit");
+const nameInput = document.querySelector(".name");
+const commentInput = document.querySelector(".comment");
+const ulReviews = document.querySelector(".ul-reviews");
+
+
 const blackLike = (id) => ( `
 <svg fill="#000000" height="20px" width="20px" version="1.1" id="${id}" class="like" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
      viewBox="0 0 217.408 217.408" xml:space="preserve">
@@ -11,6 +18,7 @@ const blackLike = (id) => ( `
     C202.107,89.145,185.311,117.356,153.833,149.017z"/>
 </svg>
 `);
+
 const redLike = (id) => ( `
 <svg height="20px" width="20px" version="1.1" id="${id}" class="like" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
      viewBox="0 0 512.001 512.001" xml:space="preserve">
@@ -32,3 +40,277 @@ let fetchedData;
 })
 .catch((error) => console.log(error));
 
+
+
+
+function buildCard(skin) {
+ const parentDiv = document.createElement('div');
+ parentDiv.className = 'card';
+
+ const img = document.createElement('img');
+ img.src = skin.imageUrl;
+ img.style = 'width:100%';
+
+const innerDiv = document.createElement('div');
+innerDiv.className = 'container';
+
+const titleDiv = document.createElement('div');
+titleDiv.className = 'titleDiv';
+
+const h4 = document.createElement('h4');
+h4.textContent = skin.brand;
+const h5 = document.createElement('h5');
+h5 .textContent = skin.name
+
+const svgDiv = document.createElement('div');
+svgDiv.innerHTML = skin.like ? redLike(`${skin.id} 1`) : blackLike(`${skin.id} 0`);
+
+
+
+// const addButton = document.createElement('button');
+// addButton.textContent = 'Add to Cart';
+
+// const commentSection = document.createElement('div')
+// commentSection.id = 'comments';
+const price = document.createElement('p');
+price.textContent = skin.price;
+
+const btn = document.createElement('button');
+btn.textContent = `Buy`;
+btn.id = `${skin.id} ${skin.price} btn`;
+//  btn.disabled = !availableTickets;
+
+const button2 = document.createElement('button');
+button2.textContent = `Delete`;
+button2.className = `${skin.id} button-delete`;
+//  button2.disabled = !availableTickets;
+
+const updateButton = document.createElement('button');
+updateButton.textContent = 'Update';
+updateButton.className = `${skin.id} button-update`;
+
+const p = document.createElement('p');
+p.textContent =trancate(skin.description);
+parentDiv.append(img);
+parentDiv.append(innerDiv);
+innerDiv.append(titleDiv);
+titleDiv.append(h4);
+//  innerDiv.append(commentSection);
+innerDiv.append(titleDiv);
+//  innerDiv.append(priceElement);
+
+//  parentDiv.append(addButton);
+
+
+titleDiv.append(h4);
+titleDiv.append(svgDiv);
+// titleDiv.append(h4);
+innerDiv.append(h5);
+innerDiv.append(p);
+innerDiv.append(price);
+
+innerDiv.append(btn);
+innerDiv.append(updateButton);
+innerDiv.append(button2);
+return parentDiv;
+}
+const beginning = (skincareProducts) => {
+
+const mainDiv = document.createElement('div');
+mainDiv.className = 'main';
+
+wrapper.appendChild(mainDiv);
+
+skincareProducts.forEach(skincareProducts => {
+const card = buildCard(skincareProducts);
+mainDiv.append(card);
+});
+};
+function trancate(str) {
+   if (str.length > 200) {
+    return `${str.slice(0, 90)} ...`
+   }
+   return str;
+}
+
+function clickCallback(e) {
+console.log(e.target);
+// console.log();
+if (e.target.getAttribute('class') === 'like') {
+const combinedIdlike = e.target.getAttribute('id');
+const id = combinedIdlike?.split(" ")[0];
+const likeBolean = combinedIdlike?.split(" ")[1] === '1' ? true : false;
+
+console.log(combinedIdlike);
+console.log(id);
+console.log(likeBolean);
+
+   e.preventDefault();
+
+
+   fetch(`http://localhost:3000/skincareProducts/${Number(id)}`, {
+method: 'PATCH',
+headers: {
+   "Content-Type": "application/json"
+},
+body: JSON.stringify(
+   {
+   id: Number(id),
+   like: !likeBolean
+   }
+)
+})
+.then((result) => result.json())
+.then((result2) => console.log(result2))
+.catch((error) => console.log(error));
+e.preventDefault();
+
+}
+}
+
+document.addEventListener('click', clickCallback);
+const comments = (e) => {
+e.preventDefault();
+fetch(`http://localhost:3000/reviews`, {
+method: 'POST',
+headers: {
+    "Content-Type": "application/json"
+},
+body: JSON.stringify(
+    {
+    name: nameInput.value,
+    message: commentInput.value,
+    }
+)
+})
+.then((result) => result.json())
+.then((result2) => console.log(result2))
+.catch((error) => console.log(error));
+};
+
+form.addEventListener('click', comments);
+
+let reviewData;
+fetch("http://localhost:3000/reviews")
+.then((result) => result.json())
+.then((result2) => {
+reviewData = result2;
+console.log('results --> ', result2);
+    reviewList(result2);  
+}).catch((e) => console.log(e))
+   
+function reviewList (reviews) {
+reviews.forEach((r) => {
+    const li = document.createElement("li")
+li.className = "lis"
+li.innerHTML = `
+    <p>${r.name}</p>
+    <p>${r.message}</p>
+    `;
+    ulReviews.append(li);
+    })
+
+}
+   
+   function deleteCallback(e) {
+    console.log(e.target);
+    if (e.target.tagName === 'BUTTON' && e.target.textContent === 'Delete') {
+        const id = e.target.className.split(" ")[0];
+        console.log(id);
+        e.preventDefault();
+        fetch(`http://localhost:3000/skincareProducts/${Number(id)}`, {
+            method: 'DELETE',
+        })
+        .then((result) => {
+            console.log(result);
+            e.target.parentNode.parentNode.parentNode.remove();
+        })
+        .catch((error) => console.log(error));
+        e.preventDefault();
+    }
+}
+
+document.addEventListener('click', deleteCallback);
+
+
+function buyCallback(e) {
+    console.log(e.target);
+    if (e.target.tagName === 'BUTTON' && e.target.textContent === 'Buy') {
+        const combinedIdPrice = e.target.getAttribute('id');
+        const id = combinedIdPrice?.split(" ")[0];
+        const price = combinedIdPrice?.split(" ")[1];
+        console.log(combinedIdPrice);
+        console.log(id);
+        console.log(price);
+        e.preventDefault();
+        fetch(`http://localhost:3000/purchases`, {
+            method: 'POST',
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(
+                {
+                    productId: Number(id),
+                    price: Number(price)
+                }
+            )
+        })
+        .then((result) => result.json())
+        .then((result2) => {
+            console.log(result2);
+            alert('Purchase successful!');
+        })
+        .catch((error) => console.log(error));
+        e.preventDefault();
+    }
+}
+
+document.addEventListener('click', buyCallback);
+
+
+const formUpdate = document.createElement('form');
+form.className = `${skin.id} form-update`;
+form.innerHTML = `
+  <label for="brand">Brand:</label>
+  <input type="text" name="brand" value="${skin.brand}">
+  <label for="name">Name:</label>
+  <input type="text" name="name" value="${skin.name}">
+  <label for="description">Description:</label>
+  <textarea name="description">${skin.description}</textarea>
+  <label for="price">Price:</label>
+  <input type="number" name="price" value="${skin.price}">
+  <input type="submit" value="Update">
+`;
+innerDiv.append(formUpdate);
+
+function toggleUpdateForm(e) {
+    const id = e.target.className.split(' ')[0];
+    const form = document.querySelector(`.${id}.form-update`);
+    form.classList.toggle('hidden');
+  }
+  updateButton.addEventListener('click', toggleUpdateForm);
+  function updateSkincareProduct(e) {
+    e.preventDefault();
+    const id = e.target.className.split(' ')[0];
+    const brand = e.target.brand.value;
+    const name = e.target.name.value;
+    const description = e.target.description.value;
+    const price = Number(e.target.price.value);
+    fetch(`http://localhost:3000/skincareProducts/${id}`, {
+      method: 'PATCH',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        brand,
+        name,
+        description,
+        price
+      })
+    })
+      .then((result) => result.json())
+      .then((result2) => console.log(result2))
+      .catch((error) => console.log(error));
+  }
+  form.addEventListener('submit', updateSkincareProduct);
+  
