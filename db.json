@@ -313,7 +313,18 @@
       "price": "$4.99",
       "description": "Soft & Skin friendly Brush - The face mask brush head is made of food grade silicone, soft and skin-friendly, so you don't need worry about a bunch of mask getting stuck in your bristles or the bristles fall out.",
       "like": false
-    }
-
+    },
+  {
+    "id": 28,
+    "brand": "Tamoskiny",
+    "name": "strawberry Clay Mask for Face",
+    "imageUrl": "https://m.media-amazon.com/images/I/71bhnilWOgL._SY450_.jpg",
+    "ingredient": [
+      "Strawberry"
+    ],
+    "price": 9.59,
+    "description": "FACIAL MASK SKIN CARE - This Pink Facial Clay Mask includes strawberry extracts, revitalize & moisturize your skin with our strawberry face mask, gently cleans the toxins, also rejuvenates your complexion for a smoother, brightening and cleaner skin.",
+    "like": false
+  }
   ]
 }
