@@ -72,6 +72,67 @@
       "price": "$19.99",
       "description": "Hylaronic acid moisturizer With hyaluronic acid, ceramides and MVE technology for 24 hour hydration. Rich, velvety texture that leaves skin feeling smooth, it is absorbed quickly for softened skin without greasy, sticky, feel.",
       "like": false
+    },
+    
+    {
+      "id": 7,
+      "brand": "REMEDIAL",
+      "name": "Collagen ",
+      "imageUrl": "https://m.media-amazon.com/images/I/81bdvgbx7kL._SY450_.jpg",
+      "ingredient": [
+        "hyaluronic_acid, vitamin_e, Retinol, Collagen, Hyaluronic Acid"
+      ],
+      "price": "$20.5",
+      "description": "Fight aging: this anti aging moisturizer face cream has been engineered to help combat the effects of age; our advanced cream contains collagen, retinol and hyaluronic acid to help erase fine lines and wrinkles",
+      "like": false
+    },
+    {
+      "id": 9,
+      "brand": "Neutrogena",
+      "name": "Hydro Boost",
+      "imageUrl": "https://www.neutrogenamd.com/sites/neutrogenahcp_us/files/hb-product-icon-images_moisturize.png",
+      "ingredient": [
+        "hyaluronic_acid"
+      ],
+      "price": "$13.56",
+      "description": "The unique facial moisturizing gel-cream absorbs quickly, like a gel, but has the long-lasting, intense moisturizing power of a cream, for even extra dry skin. It boosts skin's hydration and locks it in all day",
+      "like": false
+    },
+    {
+      "id": 10,
+      "brand": "Aveeno",
+      "name": "Daily Moisturizing Body Lotion",
+      "imageUrl": "https://www.pngkey.com/png/full/35-357327_picture-of-aveeno-daily-moisturising-lotion-with-lavender.png",
+      "ingredient": [
+        "dimethicone"
+      ],
+      "price": "$11.42",
+      "description": "Aveeno body lotion is specially designed for extra-dry skin to lock in intense moisture and help improve skin's natural moisture barrier; fragrance-free and suitable for all skin types",
+      "like": false
+    },
+    {
+      "id": 11,
+      "brand": "NAVA MD CLINICAL SKINCARE",
+      "name": "NAVA",
+      "imageUrl": "https://m.media-amazon.com/images/I/61F7UmAq--L._SY450_.jpg",
+      "ingredient": [
+        "Hypoallergenic, Antioxidant"
+      ],
+      "price": "$19.42",
+      "description": "IMPROVES SKIN ELASTICITY - These advanced skincare formulas contain high concentrations of Vitamin C, a nutrient that supports the production of collagen, the structural protein that gives your skin a firm, supple, and “lifted” look and feel.",
+      "like": false
+    },
+    {
+      "id": 12,
+      "brand": "Secret Beauty Club",
+      "name": "Eye Cream Organic Silk",
+      "imageUrl": "https://m.media-amazon.com/images/I/81+EjeMRXzL._SY450_.jpg",
+      "ingredient": [
+        "Hyaluronic Acid"
+      ],
+      "price": "$10.82",
+      "description": "Secret Beauty Club Eye Cream Organic Silk Peptides Triple Power – Under Eye Cream Dark Circles And Puffiness and Bags– Dark Circle Eye Cream for Dark Circles and Wrinkles",
+      "like": false
     }
 
   ]
