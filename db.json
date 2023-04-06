@@ -265,6 +265,54 @@
       "price": "$28",
       "description": "DERMACONTROL OIL REMOVING FOAM WASH: A clinically proven, pH-balanced formula is the first step of a daily skincare regimen designed to manage oily, combination skin",
       "like": false
+    },
+    {
+      "id": 24,
+      "brand": "Kleem Organics",
+      "name": "JEUNESSE",
+      "imageUrl": "https://m.media-amazon.com/images/I/71g2DbiHe9L._SY450_.jpg",
+      "ingredient": [
+        ""
+      ],
+      "price": "$26.99",
+      "description": "💖 YOU WILL NOTICE THE DIFFERENCE – Using the vitamin C serum for face daily your skin will feel much softer, smoother and tighter in just a few weeks. Vitamin C helps diminish wrinkles.",
+      "like": false
+    },
+    {
+      "id": 25,
+      "brand": "Eclat Skincare",
+      "name": "Pure Hyaluronic Acid",
+      "imageUrl": "https://m.media-amazon.com/images/I/71UobmaGOIL._SY450_.jpg",
+      "ingredient": [
+        ""
+      ],
+      "price": "$33.43",
+      "description": "𝐌𝐔𝐋𝐓𝐈-𝐁𝐄𝐍𝐄𝐅𝐈𝐓 𝐇𝐘𝐀𝐋𝐔𝐑𝐎𝐍𝐈𝐂 𝐀𝐂𝐈𝐃 𝐌𝐎𝐈𝐒𝐓𝐔𝐑𝐈𝐙𝐄𝐑: Unlike other brands, we don’t believe in 1-trick serums. Our hyaluronic acid moisturizer VEGAN formula BRIGHTENS, PLUMPS & BOOSTS RADIANCE. In one survey, 96% felt instant hydration after using our hyaluronic acid serum, and 88% saw fewer fine lines and wrinkles within 6 weeks.",
+      "like": false
+    },
+    {
+      "id": 26,
+      "brand": "Live Fraiche",
+      "name": "fraîhe",
+      "imageUrl": "https://m.media-amazon.com/images/I/811uv0R+k2L._SY450_.jpg",
+      "ingredient": [
+        ""
+      ],
+      "price": "$11.99",
+      "description": "SEE A DIFFERENCE in the length, thickness and overall health of your lashes and brows with our castor oil organic cold pressed hair growth serum! Over plucked brows or gaps in lashes? No worries! Grow eyebrows back and get the beautiful thick long lashes you've been wishing for! Our pure castor oil is an all-natural eyelash growth serum and eyebrow hair growth oil, whose regenerative healing properties deeply penetrate hair follicles to deliver key vitamins and nutrients to stimulate growth",
+      "like": false
+    },
+    {
+      "id": 27,
+      "brand": "ZEPELOFFY",
+      "name": "Face Mask Mixing Bowl",
+      "imageUrl": "https://m.media-amazon.com/images/I/51nAQ7Mxn8L._SY450_.jpg",
+      "ingredient": [
+        "stick"
+      ],
+      "price": "$4.99",
+      "description": "Soft & Skin friendly Brush - The face mask brush head is made of food grade silicone, soft and skin-friendly, so you don't need worry about a bunch of mask getting stuck in your bristles or the bristles fall out.",
+      "like": false
     }
 
   ]
